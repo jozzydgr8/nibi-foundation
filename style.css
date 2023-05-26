@@ -1,0 +1,247 @@
+#more {display: none;}
+
+.background{
+    background-image: url("nibi\ background.jpg");
+}
+
+body{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    scroll-behavior: smooth;
+}
+
+.border{
+    border: solid 1px black;
+}
+
+.container-fluid{
+    padding: 7% 10%;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    padding: 5px 0;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+img{
+    border-radius: 10%;
+    transition-timing-function:ease-in-out;
+    width: 60%;
+}
+
+
+.left-align{
+    text-align: left;
+}
+
+.monserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sacramento{
+    font-family: 'Sacramento', cursive;
+
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* tags***** */
+
+
+/* ***first-section***** */
+
+.navbar {
+    padding: 0 0 3.0rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+
+}
+.navbar-nav{
+    padding: 0 80px 0 0;
+}
+.nibi-logo{
+    width: 100px;
+    height: 48px; 
+}
+.title-text{
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+#first-section .container-fluid{
+
+    padding: 3% 15% 7%;
+}
+@media (max-width : 950px) {
+    .nav-link{
+        font-size: 0.8rem;
+    }
+    .nibi-logo{
+        width: 80px;
+        height: 38px;
+    }
+    .title-text {font-size: 2.0rem;
+    font-weight: 200;}
+    .navbar-nav{
+        padding: 0 0 0 0;
+    }
+    
+
+}
+@media (max-width : 450px){
+    .title-text{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .nibi-logo{
+        width: 70px;
+        height: 33px;
+    }
+    .navbar-nav{
+        padding: 0 0 0 0;
+    }
+}
+
+/* ******first-section-end****** */
+
+
+
+/* ********second-section******* */
+
+ .second-section-images{
+     box-shadow: 5px 8px rgb(171, 171, 171); 
+     transition: 3s;
+ }
+ .second-section-images:hover{
+     rotate: -15deg;
+    
+ }
+
+ @media (max-width : 600px) {
+    .second-section-text{
+        font-size: 0.5rem;
+    }
+    
+ }
+ @media (min-width : 600px) and (max-width : 770px) {
+    .second-section-text{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width : 300px) {
+    .second-section-images{
+        box-shadow: 2px 5px rgb(171, 171, 171);
+    }
+}
+/* *******second-section-end***** */
+
+
+
+
+/* *******third-section******** */
+
+.testimonials{
+    padding: 0px 100px;
+}
+
+@media  (min-width: 600px) and (max-width : 900px) {
+    .testimonials{
+        font-size: 1.5rem;
+        padding: 0px 80px;
+    }
+}
+@media (max-width : 600px){
+    .testimonials{
+        font-size: 0.5rem;
+        padding: 0px 60px;
+    }
+}
+/* ****third-section-end****** */
+
+
+
+
+
+
+
+/* ***fourth-section***** */
+
+
+.fourth-section-images{
+    margin-bottom: 2.5rem;
+}
+.fourth-section-images:hover{
+    width: 62%;
+    box-shadow: 5px 8px gainsboro;
+}
+ .fourth-section-images{
+    transition: 0.2s;
+}
+@media (max-width : 700px) {
+    .fourth-section-text{
+        font-size: 0.5rem;
+    }
+    .fourth-section-images{
+        margin-bottom: 1.0rem;
+    }
+}
+@media (min-width : 700px) and (max-width : 900px) {
+    .fourth-section-text{
+        font-size: 1.0rem;
+    }
+    .fourth-section-images{
+        margin-bottom: 1.0rem;
+    }
+
+}
+@media (max-width : 400px){
+    .fourth-section-text{
+        font-size: 0.4rem;
+    }
+    .fourth-section-images{
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+/* *****fourth-secttion-end***** */
+
+
+/* ******fifth-section****** */
+ 
+.fifth-section-images{
+    rotate: 20deg;
+    box-shadow: 5px 10px gray;
+    transition: 2s;
+}
+.fifth-section-images:hover{
+    rotate: 0deg;    
+}
+.fifth-section-link{
+    color: black;
+    text-decoration: none;
+}
+@media (max-width : 650px) {
+    .fifth-section-text{
+        font-size: 1.0rem;
+    }
+    
+}
+
+
+/* **********sixth-section******* */
+#sixth-section .container-fluid{
+    padding: 3% 5%;
+}
+.sixth-section-link{
+    color: black;
+    text-decoration: none;
+}
+
